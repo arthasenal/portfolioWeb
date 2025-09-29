@@ -17,33 +17,52 @@ export function Hero() {
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              <Mail className="w-4 h-4 mr-2" />
-              Get In Touch
+            <Button
+              asChild
+              size="lg"
+            >
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=wckd64@gmail.com&su=Let's Connect!&body=Hi Linus,%0D%0A%0D%0AI'd like to connect with you regarding..."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-primary text-primary-foreground hover:bg-primary/90"
+              >
+                <Mail className="w-4 h-4 mr-2" />
+                Get In Touch
+              </a>
             </Button>
-            <Button variant="outline" size="lg">
-              <ExternalLink className="w-4 h-4 mr-2" />
-              View Resume
+            <Button asChild variant="outline" size="lg">
+              <a
+                href="/CVLinus.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+              >
+                <ExternalLink className="w-4 h-4 mr-2" />
+                View Resume
+              </a>
             </Button>
           </div>
 
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/arthasenal"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="GitHub"
             >
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/linus-arthasena-putranto-048b842b9"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=wckd64@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email"
             >

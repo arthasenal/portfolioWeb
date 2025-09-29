@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
 
 const experiences = [
   {
@@ -24,9 +25,24 @@ export function Experience() {
   return (
     <section id="experience" className="py-20 lg:py-32">
       <div className="space-y-12">
-        <div className="space-y-4">
-          <h2 className="text-3xl lg:text-4xl font-bold text-foreground">Experience</h2>
-          <div className="w-16 h-1 bg-primary rounded-full"></div>
+        <div className="flex justify-between items-center">
+          <div className="space-y-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-foreground">Experience</h2>
+            <div className="w-16 h-1 bg-primary rounded-full"></div>
+          </div>
+          <Button
+            asChild
+            className="px-6"
+          >
+            <a
+              href="/CVLinus.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+            >
+              View Resume
+            </a>
+          </Button>
         </div>
 
         <div className="space-y-8">

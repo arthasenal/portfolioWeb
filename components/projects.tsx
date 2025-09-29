@@ -9,7 +9,7 @@ const projects = [
       "Built a personal project called Brewora Coffee, a web platform centered on coffee culture. Took full responsibility for identifying user requirements through research,  and bringing the concept to life with a fully functional front-end developed in HTML, CSS, and JavaScript. The project emphasizes usability and responsive design.",
     image: "/brewora.jpeg",
     technologies: ["Next.js", "javaScript", "HTML", "CSS"],
-    github: "https://github.com",
+    github: "https://github.com/arthasenal/BreworaCoffee.git",
     demo: "https://demo.com",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
       "Designed and implemented a machine learning project in Python that leverages CNN modeling to detect kidney abnormalities, including kidney stones and other diseases. This project highlights the use of deep learning in supporting early diagnosis and medical decision-making",
     image: "/Kidney.jpeg",
     technologies: ["HTML", "Python", "Pandas", "JavaScript"],
-    github: "https://github.com",
+    github: "https://github.com/arthasenal/KidneyWeb.git",
     demo: "https://demo.com",
   },
   
