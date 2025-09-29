@@ -7,7 +7,7 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Your Name - Software Engineering Student",
+  title: "Linus Arthasena - Software Engineering Student",
   description: "Portfolio of a passionate software engineering student showcasing projects, skills, and experience.",
   generator: "v0.app",
 }
